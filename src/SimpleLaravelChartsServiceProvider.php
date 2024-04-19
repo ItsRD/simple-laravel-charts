@@ -4,7 +4,6 @@ namespace ItsRD\LaravelSimpleCharts;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
 
 class SimpleLaravelChartsServiceProvider extends PackageServiceProvider
 {

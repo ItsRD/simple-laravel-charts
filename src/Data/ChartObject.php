@@ -9,8 +9,7 @@ class ChartObject implements Arrayable
 {
     public function __construct(
         private Charts $charts
-    )
-    {
+    ) {
     }
 
     public static function fromChart(Charts $charts): ChartObject
@@ -28,17 +27,17 @@ class ChartObject implements Arrayable
                     return [
                         'label' => $dataset['label'],
                         'data' => $dataset['data'],
-                        'borderWidth' => 2
+                        'borderWidth' => 2,
                     ];
                 })->toArray(),
             ],
             'options' => [
                 'scales' => [
                     'y' => [
-                        'beginAtZero' => true
-                    ]
-                ]
-            ]
+                        'beginAtZero' => true,
+                    ],
+                ],
+            ],
         ];
     }
 }
