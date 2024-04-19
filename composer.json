@@ -48,7 +48,7 @@
         "clear": "@php vendor/bin/testbench package:purge-skeleton --ansi",
         "prepare": "@php vendor/bin/testbench package:discover --ansi",
         "build": [
-            "@composer run prepare",
+            "@composer run prepare"
         ],
         "start": [
             "Composer\\Config::disableProcessTimeout",
