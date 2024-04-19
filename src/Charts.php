@@ -26,6 +26,7 @@ class Charts
     public function type(string $type = 'line'): Charts
     {
         $this->type = $type;
+
         return $this;
     }
 
