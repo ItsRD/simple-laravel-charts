@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ItsRD\\LaravelSimpleCharts\\": "src/",
+            "ItsRD\\LaravelSimpleCharts\\": "src/"
         }
     },
     "autoload-dev": {
