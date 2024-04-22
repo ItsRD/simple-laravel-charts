@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace ItsRD\SimpleLaravelCharts\Tests;
 
 use ItsRD\SimpleLaravelCharts\SimpleLaravelChartsServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
