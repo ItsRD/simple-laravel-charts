@@ -35,7 +35,6 @@
     "autoload": {
         "psr-4": {
             "ItsRD\\LaravelSimpleCharts\\": "src/",
-            "ItsRD\\LaravelSimpleCharts\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
@@ -71,10 +70,7 @@
         "laravel": {
             "providers": [
                 "ItsRD\\LaravelSimpleCharts\\SImpleLaravelChartsServiceProvider"
-            ],
-            "aliases": {
-                "Charts": "ItsRD\\SimpleLaravelCharts\\Facades\\Charts"
-            }
+            ]
         }
     },
     "minimum-stability": "dev",
