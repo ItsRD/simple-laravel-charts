@@ -1,3 +1,3 @@
-<div class="chart-container" style="height: 400px; width: 100%;">
+<div class="chart-container">
     <canvas id="{{ $id }}"></canvas>
 </div>
