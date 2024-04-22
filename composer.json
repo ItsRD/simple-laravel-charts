@@ -33,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ItsRD\\LaravelSimpleCharts\\": "src/"
+            "ItsRD\\SimpleLaravelCharts\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ItsRD\\LaravelSimpleCharts\\Tests\\": "tests/"
+            "ItsRD\\SimpleLaravelCharts\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -68,7 +68,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ItsRD\\LaravelSimpleCharts\\SImpleLaravelChartsServiceProvider"
+                "ItsRD\\SimpleLaravelCharts\\SimpleLaravelChartsServiceProvider"
             ]
         }
     },

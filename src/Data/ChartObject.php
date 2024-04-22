@@ -1,9 +1,9 @@
 <?php
 
-namespace ItsRD\LaravelSimpleCharts\Data;
+namespace ItsRD\SimpleLaravelCharts\Data;
 
 use Illuminate\Contracts\Support\Arrayable;
-use ItsRD\LaravelSimpleCharts\Charts;
+use ItsRD\SimpleLaravelCharts\Charts;
 
 class ChartObject implements Arrayable
 {

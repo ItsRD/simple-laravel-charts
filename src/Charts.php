@@ -1,8 +1,8 @@
 <?php
 
-namespace ItsRD\LaravelSimpleCharts;
+namespace ItsRD\SimpleLaravelCharts;
 
-use ItsRD\LaravelSimpleCharts\Data\ChartObject;
+use ItsRD\SimpleLaravelCharts\Data\ChartObject;
 
 class Charts
 {

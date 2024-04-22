@@ -1,6 +1,6 @@
 <?php
 
-namespace ItsRD\LaravelSimpleCharts;
+namespace ItsRD\SimpleLaravelCharts;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
